@@ -1,0 +1,14 @@
+type Cookie {
+   CookieFortune: String
+   id: String
+}
+
+type NewCookie {
+   Id: String
+   Href: String
+   DocumentId: String
+}
+
+type CookieDeleted {
+   status: Float
+}

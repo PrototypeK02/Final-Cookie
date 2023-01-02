@@ -1,0 +1,15 @@
+.socialNetworkWrapper {
+    display: flex;
+    margin-top: 5px;
+}
+
+.socialNetworkImage {
+    height: 25px;
+    transition: all 0.8s ease;
+    border-radius: 50%;
+}
+
+.socialNetworkImage:hover {
+    background-color:rgba(244,113,113,0.99) ;
+}
+

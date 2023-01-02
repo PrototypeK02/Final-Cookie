@@ -1,0 +1,6 @@
+query getCookie {
+    cookieList {
+        CookieFortune
+        id
+    }
+}

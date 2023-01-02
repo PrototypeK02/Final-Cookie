@@ -1,0 +1,17 @@
+.container--xp {
+  width: 80%;
+}
+
+.container--newsletter{
+  max-height: 350px;
+}
+
+.container--cookieHeadingText {
+  font: 20px Satisfy, cursive;
+  color: #000
+}
+
+.container--rights {
+  font: bold 10px Arial;
+  margin-top: 10px;
+}

@@ -1,0 +1,64 @@
+.container {
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f71963;
+    z-index: 3;
+    width: 300px;
+    background-color: #383136;
+    border-radius: 10px;
+    height: 150px;
+   
+}
+
+input {
+    text-align: center;
+}
+
+.modalBtns {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.modalInput {
+    border-radius: 10px;
+}
+
+.modalbtnA {
+    color: rgb(52, 122, 52);
+    background: transparent;
+    border: none;
+}
+
+.modalbtnB {
+    color: rgb(196, 97, 97);
+    background: transparent;
+    border: none;
+    
+}
+
+.modalbtnA:hover {
+    color: rgb(215, 209, 209);
+    cursor: pointer;
+}
+
+.modalbtnB:hover {
+    color: rgb(215, 209, 209);
+    cursor: pointer;
+}
+

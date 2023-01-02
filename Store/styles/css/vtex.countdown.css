@@ -1,0 +1,40 @@
+.cookieBtn {
+    color: #000;
+    padding: 20px 50px;
+    border-radius: 8px;
+    margin-top: 60px;
+    background-color: rgba(252,198,124,255);
+    font: bold 15px Arial;
+    box-shadow:  8px 16px 0 rgb(0 0 0 / 20%);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.cookieBtn:hover {
+    background-color: rgba(252,181,89,255);
+}
+
+.cookieBtn:active {
+    transform: translateY(2rem);
+}
+
+.cookieHeader {
+    font: bolder 20px Satisfy, cursive;
+    color: #000;
+    letter-spacing: 2px;
+
+}
+
+.cookieSubheader {
+    font: bold 20px Satisfy, cursive;
+    color: #000;
+    letter-spacing: 2px;
+    border: solid 1px black;
+}
+
+.h5Heading {
+    font:  15px Satisfy, cursive;
+    color: #000;
+    letter-spacing: 2px;
+
+}

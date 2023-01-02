@@ -1,0 +1,12 @@
+type Query {
+    cookieList: [Cookie]
+    
+}
+
+type Mutation {
+    cookieNew(CookieFortune: String): NewCookie
+    deleteCookie(id: String): CookieDeleted
+    editCookie(id: String, CookieFortune: String): Boolean
+
+     }
+

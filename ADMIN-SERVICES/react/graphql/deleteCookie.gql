@@ -1,0 +1,6 @@
+mutation deleteCookie($cookiefortuneId: String) {
+    deleteCookie(id: $cookiefortuneId) {
+        status
+    }
+    
+}

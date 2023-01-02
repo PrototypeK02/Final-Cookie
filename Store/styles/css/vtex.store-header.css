@@ -1,0 +1,32 @@
+.headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.headerRow--main-header .headerRowBackground {
+  background-color: rgba(244, 113, 113, 0.99);;
+  padding: 1rem 0;
+  border-bottom: 1px solid #d3d3d3;
+  
+}
+
+.headerRowContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  
+}
+/*
+.headerRow--main-header :global(a) {
+  margin: 0 auto;
+} */
+
+.headerRow--main-topbar :global(.vtex-menu-2-x-styledLink)  {
+  color: #727273;
+  font-size: 14px;
+}
+
+.headerRow--main-header-mobile .headerRowBackground {
+  background-color: #212222;
+  padding: 1.5em 0;
+}

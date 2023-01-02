@@ -1,0 +1,71 @@
+
+.cookie {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+    
+}
+.cookie:hover {
+    border:2px solid #f71963;
+    border-radius: 5px;
+}
+
+.even {
+    background: linear-gradient(to right, #fff, rgb(232, 215, 215));
+}
+
+.odd {
+    background: linear-gradient(to left,#fff, rgb(254, 221, 221));
+}
+
+.addbtn {
+    margin-bottom: 20px;
+    border: 3px solid #f71963;
+    border-radius: 10px;
+    color : #f71963;
+    width: 200px;
+    float: right;
+}
+
+.addbtn:hover {
+    background-color:rgb(254, 221, 221);
+    color: white;
+    border: 3px solid rgb(254, 221, 221);
+
+}
+.delete {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: white;
+}
+
+.cookieItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.cookieId{
+    font-size: 0.5rem;
+    letter-spacing: 1.5px;
+
+}
+
+.cookieContent {
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+
+.styleguide__box {
+    height: 100px;
+    background-color: red;
+}

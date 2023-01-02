@@ -1,0 +1,3 @@
+mutation updateCookie($cookieId: String, $cookiefortune: String) {
+    editCookie(id: $cookieId, CookieFortune: $cookiefortune ) 
+}

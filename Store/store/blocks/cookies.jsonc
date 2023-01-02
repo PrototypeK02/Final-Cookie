@@ -1,0 +1,31 @@
+{
+    "store.custom#cookies": {
+        "blocks": [
+            "flex-layout.row#cookie"
+        ]
+      },
+      "flex-layout.row#cookie": {
+        "props": {
+          "blockClass": "cookieContainer"
+        },
+        "children": [
+            "flex-layout.col#imgecookie",
+            "cookies"
+        ]
+      },
+      "flex-layout.col#imgecookie": {
+        "props": {
+          "blockClass": "imgCookie"
+        },
+        "children": [
+            "image#cookie"
+        ]
+      },
+      "image#cookie": {
+        "props": {
+            "blockClass": "cookieF",
+            "src": "https://ohmycodeness.files.wordpress.com/2016/03/fortune-cookie-hi.png",
+            "maxHeight": 400
+        }
+      }
+}

@@ -1,0 +1,5 @@
+mutation createCookie($cookiefortune: String) {
+    cookieNew(CookieFortune: $cookiefortune ) {
+        DocumentId
+    }
+}
